@@ -12,9 +12,24 @@ const forecast = ( latitude, longitude, callback) => {
             temperature = response.body.current.temperature
             weather = response.body.current.weather_descriptions
             precipitation = response.body.current.precip
+            wind_speed = response.body.current.wind_speed
+            wind_dir = response.body.current.wind_dir
+            pressure = response.body.current.pressure
+            humidity = response.body.current.humidity
+            feelslike = response.body.current.feelslike
+            uv_index = response.body.current.uv_index
+            visibility = response.body.current.visibility
             callback( undefined, {
                 temperature,
-                weather,precipitation
+                weather,
+                precipitation,
+                wind_speed,
+                wind_dir,
+                pressure,
+                humidity,
+                feelslike,
+                uv_index,
+                visibility
             })
         }
     })
