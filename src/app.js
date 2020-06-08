@@ -24,14 +24,15 @@ app.get('', (req,res) => {
 app.get('/about', (req,res) => {
     res.render('about',{
         title: 'About me',
-        name: 'Siddhesh Juhukar'
+        name: 'Siddhesh Juhukar',
+        desc: 'I am a graduate student at Northeastern University with a major in Computer Software Engineering. Open to opportunities as a Full Stack developer, Front-End developer or UX designer.'
     })
 })
 
 app.get( '/help', (req,res) => {
     res.render('help', {
         title: 'Help section',
-        help: 'This is the help section',
+        help: 'Thank you for using my weather app. This Sample was created by using node js and uses data from weatherstack.com. This is a basic free version. Stay tuned for more updates.',
         name: 'Siddhesh Juhukar'
     })
 })

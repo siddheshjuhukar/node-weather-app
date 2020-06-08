@@ -74,4 +74,16 @@ button:hover{
     box-shadow: 5px 10px 10px 5px gray;
     padding: 25px;
     background-color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+
+.about{
+    display: inline-grid;
+    grid-template-columns: 60% 40%;
+}
+
+img{
+    width: 325px;
+    box-shadow: 5px 5px 2px grey;
 }
