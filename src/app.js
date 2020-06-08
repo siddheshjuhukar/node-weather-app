@@ -16,15 +16,15 @@ hbs.registerPartials(path.join(__dirname, '../templates/partials'))
 
 app.get('', (req,res) => {
     res.render('index', {
-        title: 'My Weather app',
-        name: 'Siddhesh'
+        title: 'My Weather App',
+        name: 'Siddhesh Juhukar'
     })
 })
 
 app.get('/about', (req,res) => {
     res.render('about',{
         title: 'About me',
-        name: 'Siddhesh'
+        name: 'Siddhesh Juhukar'
     })
 })
 
@@ -32,7 +32,7 @@ app.get( '/help', (req,res) => {
     res.render('help', {
         title: 'Help section',
         help: 'This is the help section',
-        name: 'Siddhesh'
+        name: 'Siddhesh Juhukar'
     })
 })
 

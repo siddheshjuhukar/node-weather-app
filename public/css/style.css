@@ -6,24 +6,72 @@ body{
 
     display: flex;
     flex-direction: column;
-    min-height: 100vh
-}
-
-h2{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: aquamarine;
+    min-height: 100vh;
 }
 
 a{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: white;
-    background-color: turquoise;
+    color: #fff5d7;
     text-decoration: none;
-    padding: 5px;
+    padding: 10px;
+    margin-left: 15px;
     border: none
 }
 
 a:hover{
-    background-color: black;
+    color: #e1b382;
+}
+
+#header{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    padding: 20px;
+    background-color: #091f36;
+    color: white;
+    box-shadow: 10px 10px 5px #12343b;
+}
+
+#footer{
+    position: absolute;
+    bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    padding: 20px;
+    width: 610px;
+    background-color: #4f5f76;
+    color: white;
+    box-shadow: 10px 10px 5px #1d1e22;
+}
+
+#footer p{
+    margin-left: 25px;
+}
+
+input{
+    padding: 10px;
+    margin-top: 25px;
+    /* box-shadow: 5px 5px 2px #4f5f76; */
     border: none;
+}
+
+button{
+    padding: 12px;
+    margin-left: 10px;
+    background-color: #4f5f76;
+    color: white;
+    border: none;
+}
+
+button:hover{
+    color: #fff5d7;
+    background-color: #091f36;
+    box-shadow: 3px 3px 1px #12343b;
+}
+
+#main-content{
+    margin-top: 10px;
+    min-height: 370px;
+    box-shadow: 5px 10px 10px 5px gray;
+    padding: 25px;
+    background-color: whitesmoke;
 }
